@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         mUrl="rtsp://106.75.254.198:5555/rtsp/c20ddaff-b2e5-4c10-80b7-938891409d35";//O3P
 //        mUrl="http://106.75.254.198:5581/rtsp/68448ebb-d34b-4af7-9cf9-ffe650ced784.flv";//O3P
         mUrl = "http://106.75.254.198:5581/rtsp/4127aeff-4d1e-411b-9d21-23205f117e75.flv";//4x倍速播放.
+        mUrl = "https://www.zzsin.com/hdr/V/ysjf.m3u8";
         mUrlEtv.setText(mUrl);
         //监听进度变化.
         mSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
